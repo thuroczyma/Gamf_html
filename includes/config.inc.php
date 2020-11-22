@@ -1,6 +1,6 @@
 <?php
 $pagetitle = array(
-    'title' => 'Simple Website Ltd.',
+    'title' => 'Rent a Pet Ltd.',
 );
 
 $header = array(
@@ -12,15 +12,16 @@ $header = array(
 
 $footer = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'firm' => 'Simple Website Ltd.'
+    'firm' => 'Rent a Pet Ltd.'
 );
 
 $pages = array(
 	'/' => array('file' => 'home', 'text' => 'Home'),
 	'introduction' => array('file' => 'introduction', 'text' => 'Introduction'),
 	'contact' => array('file' => 'contact', 'text' => 'Contact'),
-	'articles' => array('file' => 'articles', 'text' => 'Articles'),
-    'table' => array('file' => 'table', 'text' => 'Table')
+    'gallery' => array('file' => 'gallery', 'text' => 'Gallery'),
+    'prices' => array('file' => 'prices', 'text' => 'Prices'),
+    'rent' => array('file' => 'rent', 'text' => 'Rent')
 );
 
 $error_page = array ('file' => '404', 'text' => 'Page not found!');

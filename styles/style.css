@@ -1,10 +1,22 @@
+div#content {
+    display: table-cell;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #39cf84;
+    padding: 15px;
+    text-align: justify;
+}
+
+
 header .jumbotron{
     background: url("../images/paw_backg.jpg") center center no-repeat;
     background-size: cover ;
 }
 header .jumbotron h1{
     font-weight: bolder;
-    color: rgb(82, 186, 235);
+    font-style: italic;
+    font-size: 3cm;
+    color: rgb(80, 136, 161);
 };
 
 table {
@@ -12,9 +24,9 @@ table {
 }
 th, td {
     padding: 10px 50px 10px 5px;
-    text-align: left;
+    text-align: center;
     font-family: sans-serif;
-    font-size: x-small;
+    font-size: small;
 }
 th {
     color: #1E459E;
@@ -27,7 +39,24 @@ td {
     border-top: 3px solid #FFFFFF;
 }
 
-body {
-    background: rgb(82, 186, 235);
+body.Body {
+    background: rgb(71, 185, 238);
 
+}
+
+input[type="text"].long {
+    width: 98%;
+    max-width: 455px;
+}
+input[type="text"].short, select, textarea {
+    width: 320px;
+}
+
+input[type="text"], select, textarea {
+    display: block;
+    border-top: inset;
+}
+div.container{
+    margin-top:30px;
+    margin-bottom :30px;
 }
